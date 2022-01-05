@@ -1,0 +1,139 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+   body {
+      background-color: #6d6d6d;
+      }
+      
+      #gridContainer {
+          display: grid; 
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-template-rows: 25vh 10vh 40vh auto 1fr;
+      
+        
+      
+      }
+      
+      .header {
+          grid-column: 1/4;
+          height: auto;
+          background-color: #1b1b1b ;
+      }
+      
+      .header_logo {
+         display: flex;
+         flex-direction: column;
+         height: 4fr;
+         width: 3fr;
+         justify-content: stretch;
+      }
+      
+      .header_nombre {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          color: beige;
+          margin-top: -120pt;
+          font-size: 80%;
+      }
+      
+      #nav {
+          grid-column: 1/4;
+          grid-row: 2/3;
+          background-color: #1b1b1b;
+          text-align: center;
+          padding: 0;
+          margin: 0;
+      }
+      
+      #nav a {
+          color: beige;
+          font-size: 15pt;
+      }
+      
+      #nav a:hover {
+          color: black;
+          background-color: beige;
+          text-decoration: underline beige;
+          border-radius: 8pt;
+          font-weight: bold;
+      
+      }
+      
+      /* FINAL HEADER */
+      
+      #instrumentales {
+          grid-column: 1/4;
+          grid-row: 3/4;
+          gap: 10pt;
+          justify-content: center;
+          align-self: center;
+          text-align: center;
+          
+          display: flex;
+          flex-wrap: nowrap;
+          color: beige;
+          font-size: 15pt;
+          font-weight: bold;
+          align-items: baseline;
+      }
+      
+      .instrumentales-genero p {
+      }
+      
+      #instrumentales iframe {
+          width: fit-content;
+          height: max-content;
+          padding: 3pt;
+      }
+      
+      /* FINAL INSTRUMENTALES */
+      
+      #licencias {
+          grid-row: 4/5;
+          grid-column: 1/4;
+          gap: 5pt; 
+          display: flex;
+          flex-wrap: nowrap;
+          justify-content: center;
+          align-content: center;
+      }
+      
+      #licencias .licencias-tipo {
+          color: beige;
+          list-style-type:circle;
+          list-style-position: inside;
+          border-style: inset;
+          border-radius: 5px;
+          
+      }
+      
+      .licencias-tipo p {
+          text-align: center;
+          font-weight: bold;
+          font-weight: 150pt;
+          font-size: 20pt;
+      }
+      
+      .licencias-tipo li {
+          padding: 5pt;
+          text-align: left;
+      }
+      
+      /* FIN LICENCIAS */
+      
+      
+      #footer {
+          grid-row: 5/6;
+          grid-column: 2/3;
+          text-align: center;
+         margin-top: 500px;
+         color: beige;
+         
+      }
+      
+}

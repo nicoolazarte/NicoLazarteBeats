@@ -1,0 +1,129 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Readex Pro';
+    box-sizing: border-box;
+  
+}
+body {
+background-color: #6d6d6d;
+}
+
+#gridContainer {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 25vh 10vh 1fr 110vh auto;
+}
+
+.header {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    height: 100%;
+    background-color: #1b1b1b ;
+}
+
+.header_logo {
+   display: flex;
+   flex-direction: column;
+   height: 4fr;
+   width: 3fr;
+   justify-content: stretch;
+}
+
+.header_nombre {
+    color: beige;
+    text-align: center;
+    font-size: 8pt;
+    justify-content: center;
+    margin-top: -115pt;
+}
+
+#nav {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    text-align: center;
+    justify-content: stretch;
+    align-content: center;
+}
+
+#nav nav {
+    padding: 15pt;
+}
+
+#nav a {
+    color: beige;
+    font-size: 12pt;
+}
+
+#nav a:hover {
+    color: black;
+    background-color: beige;
+    text-decoration: underline beige;
+    border-radius: 8pt;
+    font-weight: bold;
+
+}
+
+#instrumentales {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    padding: 5pt;
+}
+
+.instrumentales-genero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instrumentales-genero p {
+    color: beige;
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+.instrumentales-genero iframe {
+    width: 540px;
+    height: 300px;
+}
+
+/* FIN INSTRUMENTALES */
+
+#licencias {
+    grid-column: 1/3;
+    grid-row: 4/6;
+    gap: 5pt;
+    padding: 5pt;
+    margin: 0;
+}
+
+#licencias .licencias-tipo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style-type:circle;
+    list-style-position: inside;
+    border-style: inset;
+    border-radius: 5px;
+    padding: 8pt;
+} 
+
+.licencias-tipo p {
+    color: beige;
+    font-weight: bold;
+    font-weight: 50pt;
+    font-size: 18pt;
+}
+
+ /* FIN LICENCIAS */
+      
+      
+ #footer {
+    grid-row: 5/6;
+    grid-column: 1/3;
+    text-align: center;
+    color: beige;
+    margin-top: 45px;
+   
+}

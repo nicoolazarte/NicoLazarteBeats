@@ -1,0 +1,490 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Readex Pro';
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/*  GENERAL */
+@media screen and (min-width: 769px) {
+body {
+    background-color: #6d6d6d;
+    }
+    
+    #gridContainer {
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 25vh 10vh 40vh 62vh 1fr;
+    
+      
+    
+    }
+    
+    .header {
+        grid-column: 1/4;
+        height: 140%;
+        background-color: #1b1b1b ;
+    }
+    
+    .header_logo {
+       display: flex;
+       flex-direction: column;
+       height: 4fr;
+       width: 3fr;
+       justify-content: stretch;
+    }
+    
+    .header_nombre {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: beige;
+        margin-top: -120pt;
+        font-size: 80%;
+    }
+    
+    #nav {
+        grid-column: 1/4;
+        grid-row: 2/3;
+        background-color: #1b1b1b;
+        text-align: center;
+        padding: 12pt;
+        margin: 0;
+    }
+    
+    #nav a {
+        color: beige;
+        font-size: 15pt;
+    }
+    
+    #nav a:hover {
+        color: black;
+        background-color: beige;
+        text-decoration: underline beige;
+        border-radius: 8pt;
+        font-weight: bold;
+    
+    }
+    
+    /* FINAL HEADER */
+
+/* INSTRUMENTALES page */
+
+#instrumentales {
+    grid-column: 1/4;
+    grid-row: 3/6;
+    gap: 10pt;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    
+    
+    color: beige;
+    font-size: 15pt;
+    font-weight: bold;
+    align-items: baseline;
+}
+
+.instrumentales-genero p {
+    font-weight: bold;
+    font-size: 35pt;
+    padding: 0;
+    margin-top: 10pt;
+}
+
+
+
+
+#instrumentales iframe {
+    width: 700px;
+    height: 450px;
+}
+
+/* FINAL INSTRUMENTALES */
+
+
+/* LICENCIAS paga */
+
+#licencias {
+    grid-row: 3/5;
+    grid-column: 1/4;
+    gap: 5pt; 
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    padding: 5pt;
+}
+
+#licencias .licencias-tipo {
+    color: beige;
+    list-style-type:circle;
+    list-style-position: inside;
+    border-style: inset;
+    border-radius: 5px;
+    
+}
+
+.licencias-tipo p {
+    text-align: center;
+    font-weight: bold;
+    font-weight: 150pt;
+    font-size: 20pt;
+}
+
+.licencias-tipo li {
+    padding: 5pt;
+    text-align: left;
+}
+/* COLAB page */
+
+#formColab {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    gap: auto;
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#formColab .form-title {
+    font-size: 25pt;
+    padding: 20pt;
+    border-style: outset;
+    border-color: black;
+}
+
+#formColab .form-label {
+    max-width: 100px;
+    margin: 0;
+    padding: 10pt;
+}
+
+#formColab .form-input {
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    
+}
+
+/* SOBRE MI page */
+
+#sobreMi {
+    grid-row: 3/6;
+    grid-column: 1/4;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 10pt;
+    
+}
+
+#sobreMi .info-div  p{
+    color: beige;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    border-style: outset;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #003d33;
+}
+
+
+
+/* CONTACTO page */
+
+#contacto{
+    grid-column: 1/4;
+    grid-row:3/6;
+    text-align: center;
+    color: beige;
+    
+    list-style: none;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacto .contacto-list {
+    padding: 50pt;
+    
+}
+
+#contacto .contacto-instagram {
+    font-size: 50px;
+    border-style: outset;
+    border-radius: 5cm;
+    border-color: beige;
+    background-color: #003d33;
+
+}
+
+
+.contacto-email {
+    font-size: 50px;
+    border-style: outset;
+    border-radius: 5cm;
+    border-color: beige;
+    background-color: #003d33;
+}
+
+.contacto-youtube {
+    font-size: 50px;
+    border-style: outset;
+    border-radius: 5cm;
+    border-color: beige;
+    background-color: #003d33;
+}
+
+#contacto p {
+    padding: 25pt;
+}
+
+#footer {
+    grid-row: 5/6;
+    grid-column: 2/3;
+    text-align: center;
+   margin-top: 500px;
+   color: beige;
+   
+}
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #6d6d6d;
+        }
+        
+        #gridContainer {
+            display: grid; 
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 25vh 10vh 1fr 110vh auto;
+        }
+        
+        .header {
+            grid-column: 1/3;
+            grid-row: 1/3;
+            height: 100%;
+            background-color: #1b1b1b ;
+        }
+        
+        .header_logo {
+           display: flex;
+           flex-direction: column;
+           height: 4fr;
+           width: 3fr;
+           justify-content: stretch;
+        }
+        
+        .header_nombre {
+            color: beige;
+            text-align: center;
+            font-size: 8pt;
+            justify-content: center;
+            margin-top: -115pt;
+        }
+        
+        #nav {
+            grid-column: 1/3;
+            grid-row: 2/3;
+            text-align: center;
+            justify-content: stretch;
+            align-content: center;
+        }
+        
+        #nav nav {
+            padding: 15pt;
+        }
+        
+        #nav a {
+            color: beige;
+            font-size: 12pt;
+        }
+        
+        #nav a:hover {
+            color: black;
+            background-color: beige;
+            text-decoration: underline beige;
+            border-radius: 8pt;
+            font-weight: bold;
+        
+        }
+        
+        #instrumentales {
+            grid-column: 1/3;
+            grid-row: 3/4;
+            padding: 5pt;
+        }
+        
+        .instrumentales-genero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .instrumentales-genero p {
+            color: beige;
+            font-weight: bold;
+            font-size: 25pt;
+        }
+        
+        .instrumentales-genero iframe {
+            width: 540px;
+            height: 300px;
+        }
+        
+        /* FIN INSTRUMENTALES */
+        
+        #licencias {
+            grid-column: 1/3;
+            grid-row: 4/6;
+            gap: 5pt;
+            padding: 5pt;
+            margin: 0;
+        }
+        
+        #licencias .licencias-tipo {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            list-style-type:circle;
+            list-style-position: inside;
+            border-style: inset;
+            border-radius: 5px;
+            padding: 8pt;
+        } 
+        
+        .licencias-tipo p {
+            color: beige;
+            font-weight: bold;
+            font-weight: 50pt;
+            font-size: 18pt;
+        }
+        
+         /* FIN LICENCIAS */
+        /* COLAB page */
+
+#formColab {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    gap: auto;
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#formColab .form-title {
+    font-size: 25pt;
+    padding: 20pt;
+    border-style: outset;
+    border-color: black;
+}
+
+#formColab .form-label {
+    max-width: 100px;
+    margin: 0;
+    padding: 10pt;
+}
+
+#formColab .form-input {
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    
+}
+         /* SOBRE MI page */
+
+#sobreMi {
+    grid-row: 3/6;
+    grid-column: 1/4;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 10pt;
+    
+}
+
+#sobreMi .info-div  p{
+    color: beige;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    border-style: outset;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #003d33;
+}
+
+
+         /* CONTACTO page */
+
+#contacto{
+    grid-column: 1/4;
+    grid-row:3/6;
+    text-align: center;
+    color: beige;
+    
+    list-style: none;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacto .contacto-list {
+    padding: 50pt;
+    
+}
+
+#contacto .contacto-instagram {
+    font-size: 50px;
+    border-style: outset;
+    border-radius: 5cm;
+    border-color: beige;
+    background-color: #003d33;
+
+}
+
+
+.contacto-email {
+    font-size: 50px;
+    border-style: outset;
+    border-radius: 5cm;
+    border-color: beige;
+    background-color: #003d33;
+}
+
+.contacto-youtube {
+    font-size: 50px;
+    border-style: outset;
+    border-radius: 5cm;
+    border-color: beige;
+    background-color: #003d33;
+}
+
+#contacto p {
+    padding: 25pt;
+}
+              
+              
+         #footer {
+            grid-row: 5/6;
+            grid-column: 1/3;
+            text-align: center;
+            color: beige;
+            margin-top: 45px;
+           
+        }
+        
+}
