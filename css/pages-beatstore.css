@@ -125,6 +125,7 @@ body {
     list-style-position: inside;
     border-style: inset;
     border-radius: 5px;
+    background-image: linear-gradient(grey, #003d33);
     
 }
 
@@ -158,6 +159,7 @@ body {
     padding: 20pt;
     border-style: outset;
     border-color: black;
+    background-image: linear-gradient(grey, #003d33);
 }
 
 #formColab .form-label {
@@ -223,7 +225,7 @@ body {
     border-style: outset;
     border-radius: 5cm;
     border-color: beige;
-    background-color: #003d33;
+    background-image: linear-gradient(grey, #003d33);
 
 }
 
@@ -233,7 +235,7 @@ body {
     border-style: outset;
     border-radius: 5cm;
     border-color: beige;
-    background-color: #003d33;
+    background-image: linear-gradient(grey, #003d33);
 }
 
 .contacto-youtube {
@@ -241,7 +243,7 @@ body {
     border-style: outset;
     border-radius: 5cm;
     border-color: beige;
-    background-color: #003d33;
+    background-image: linear-gradient(grey, #003d33);
 }
 
 #contacto p {

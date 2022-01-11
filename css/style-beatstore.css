@@ -93,7 +93,7 @@ background-color: #6d6d6d;
 #licencias {
     grid-column: 1/3;
     grid-row: 4/6;
-    gap: 5pt;
+    gap: 10pt;
     padding: 5pt;
     margin: 0;
 }
@@ -107,6 +107,7 @@ background-color: #6d6d6d;
     border-style: inset;
     border-radius: 5px;
     padding: 8pt;
+    background-image: linear-gradient(grey, #003d33);
 } 
 
 .licencias-tipo p {
