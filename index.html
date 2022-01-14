@@ -3,136 +3,124 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="shortcut icon" href="assets/img/favicon-32x32.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style-beatstore.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="../Desafio 1/img/favicon (2).ico" type="image/x-icon">
-    <link rel="icon" href="../Desafio 1/img/favicon (2).ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Nico Lazarte Music Beatstore/css/responsive.css">
-    
+    <link rel="icon" href="../Desafio 1/img/favicon (2).ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../Desafio 1/img/favicon (2).ico" type="image/x-icon">
     <title >Nico Lazarte Beats Beatstore</title>
 </head>
 <body>
-<div id="gridContainer">
-	
-    <header class="header">
-        
-		<div class=header_logo>
-            <img src="./img/NL cropped.jpg" alt="Logo de Nico Lazarte"  class="imagenLogo" height="160">
-        </div> 
-             
-        <div class="header_nombre">
-            <h1> <strong>NICO LAZARTE BEATS BEATSTORE</strong></h1>
-        </div>
-    </header>
-        <div id="nav">
-            <nav>	
-                <ul>
-                
-                    <a href="./index.html">INICIO</a>
-                    <a href="./instrumentales.html">INSTRUMENTALES</a>
-                    <a href="./licencias.html"> LICENCIAS</a>
-                    <a href="./colab.html">COLAB</a>
-                    <a href="./SobreMi.html">SOBRE MI</a>
-                    <a href="./contacto.html">CONTACTO</a>
-                
-                </ul>
-            </nav>
-        </div>    
-        
-        <!-- INSTRUMENTALES DIVIDOS POR GENERO -->
-        <div id="instrumentales">
-            <div class="instrumentales-genero">
-            <p>TRAP BEATS</p> 
-            <iframe  src="https://www.youtube.com/embed/videoseries?list=PLUUNa8DLJCfPOFQaUQQlQmdZwSbReuwKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-            <div class="instrumentales-genero">
-            <p>URBANO LATINO</p> 
-            <iframe  src="https://www.youtube.com/embed/videoseries?list=PLUUNa8DLJCfNMfoeNEwvrequDlH_J-IZq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-            <div class="instrumentales-genero">
-            <p>RNB BEATS</p>
-            <iframe  src="https://www.youtube.com/embed/videoseries?list=PLUUNa8DLJCfPpZGY815IJwswphOmsjcyR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+
+      
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Nico Lazarte Beats Beatstore</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./instrumentales.html">Instrumentales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./licencias.html">Licencias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./colab.html">Colaboremos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./SobreMi.html">Sobre Mi</a>
+              </li>
+            </ul>
+          </div>
+        </div>  
+      </nav>
+      
+
+      <div id="instrumentales" class="my-2 py-1 container-fluid">
+        <div class="instrumentales-genero">
+        <p>TRAP BEATS</p> 
+        <iframe  src="https://www.youtube.com/embed/videoseries?list=PLUUNa8DLJCfPOFQaUQQlQmdZwSbReuwKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
-        
-        <div id="licencias">
-                <ul class="licencias-tipo"> 
-                      <p>LICENCIA BASICA</p>
-                    
-                    <li>Archivos WAV y MP3</li>
-                    <li>Sin TAG o marca de agua</li>
-                    <li>Publicar 1 video en YouTube y subir tu cancion a Soundcloud</li>
-                    <li>No exclusivo</li>
-                </ul>
-
-                <ul class="licencias-tipo">
-                    <p>LICENCIA FULL</p>
-                    
-                    <li>Archivos WAV y MP3</li>
-                    <li>Sin TAG o marca de agua</li>
-                    <li>Stems o pistas de audio del instrumental</li>
-                    <li>Publicar 1 video en YouTube</li>
-                    <li>Subir tu cancion a las plataformas de streaming</li>
-                    <li>No exclusivo</li>
-                </ul>
-                
-                <ul class="licencias-tipo">
-                    <p>LICENCIA ILIMITADA</p>
-                    
-                    <li>Archivos WAV y MP3</li>
-                    <li>Sin TAG o marca de agua</li>
-                    <li>Stems o pistas de audio del instrumental</li>
-                    <li>Subir tu cancion a las plataformas de streaming</li>
-                    <li>Reproduccion y ventas ilimitadas de tu cancion</li>
-                    <li>No exclusivo</li>
-                </ul>
-
-                <ul class="licencias-tipo">
-                    <p>LICENCIA EXCLUSIVA</p>
-                    
-                    <li>Archivos WAV y MP3</li>
-                    <li>Sin TAG o marca de agua</li>
-                    <li>Stems o pistas de audio del instrumental</li>
-                    <li>Subir tu cancion a las plataformas de streaming</li>
-                    <li>Reproduccion y ventas ilimitadas de tu cancion</li>
-                    <li>Beat exclusivo</li>
-                    <li>Se retira el instrumental de la libreria</li>
-                </ul>
-                
+        <div class="instrumentales-genero">
+        <p>URBANO LATINO</p> 
+        <iframe  src="https://www.youtube.com/embed/videoseries?list=PLUUNa8DLJCfNMfoeNEwvrequDlH_J-IZq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+
+        <div class="instrumentales-genero">
+        <p>RNB BEATS</p>
+        <iframe  src="https://www.youtube.com/embed/videoseries?list=PLUUNa8DLJCfPpZGY815IJwswphOmsjcyR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+      </div>
+
+      <div id="licencias" class="d-flex justify-content-center mx-2 py-2 container-fluid">
+        <ul class="licencias-tipo"> 
+              <p>LICENCIA BASICA</p>
+            
+            <li>Archivos WAV y MP3</li>
+            <li>Sin TAG o marca de agua</li>
+            <li>Publicar 1 video en YouTube y subir tu cancion a Soundcloud</li>
+            <li>No exclusivo</li>
+        </ul>
+
+        <ul class="licencias-tipo">
+            <p>LICENCIA FULL</p>
+            
+            <li>Archivos WAV y MP3</li>
+            <li>Sin TAG o marca de agua</li>
+            <li>Stems o pistas de audio del instrumental</li>
+            <li>Publicar 1 video en YouTube</li>
+            <li>Subir tu cancion a las plataformas de streaming</li>
+            <li>No exclusivo</li>
+        </ul>
         
+        <ul class="licencias-tipo">
+            <p>LICENCIA ILIMITADA</p>
+            
+            <li>Archivos WAV y MP3</li>
+            <li>Sin TAG o marca de agua</li>
+            <li>Stems o pistas de audio del instrumental</li>
+            <li>Subir tu cancion a las plataformas de streaming</li>
+            <li>Reproduccion y ventas ilimitadas de tu cancion</li>
+            <li>No exclusivo</li>
+        </ul>
 
-     
-    
-    
+        <ul class="licencias-tipo">
+            <p>LICENCIA EXCLUSIVA</p>
+            
+            <li>Archivos WAV y MP3</li>
+            <li>Sin TAG o marca de agua</li>
+            <li>Stems o pistas de audio del instrumental</li>
+            <li>Subir tu cancion a las plataformas de streaming</li>
+            <li>Reproduccion y ventas ilimitadas de tu cancion</li>
+            <li>Beat exclusivo</li>
+            <li>Se retira el instrumental de la libreria</li>
+        </ul>
         
-
-
-
-        
-
-
-
-
-
-          
-
-
-
-
-
+</div>
 
         <footer id="footer">
-           <p>Derechos Reservados - Nico Lazarte Beats</p>
-        </footer>
+        <p>Derechos Reservados - Nico Lazarte Beats</p>
+            </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-	
-</div>
+
 </body>
 
 </html>
