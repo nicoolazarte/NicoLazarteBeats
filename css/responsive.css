@@ -18,7 +18,7 @@
       
       }
       
-      .header {
+      #header {
           grid-column: 1/4;
           height: auto;
           background-color: #1b1b1b ;
@@ -42,7 +42,7 @@
       }
       
       #nav {
-          grid-column: 1/4;
+          grid-column: 1/12;
           grid-row: 2/3;
           background-color: #1b1b1b;
           text-align: center;

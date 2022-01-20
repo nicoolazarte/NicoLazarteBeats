@@ -430,54 +430,7 @@ body {
 }
 
 
-         /* CONTACTO page */
-
-#contacto{
-    grid-column: 1/4;
-    grid-row:3/6;
-    text-align: center;
-    color: beige;
-    
-    list-style: none;
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-}
-
-#contacto .contacto-list {
-    padding: 50pt;
-    
-}
-
-#contacto .contacto-instagram {
-    font-size: 50px;
-    border-style: outset;
-    border-radius: 5cm;
-    border-color: beige;
-    background-color: #003d33;
-
-}
-
-
-.contacto-email {
-    font-size: 50px;
-    border-style: outset;
-    border-radius: 5cm;
-    border-color: beige;
-    background-color: #003d33;
-}
-
-.contacto-youtube {
-    font-size: 50px;
-    border-style: outset;
-    border-radius: 5cm;
-    border-color: beige;
-    background-color: #003d33;
-}
-
-#contacto p {
-    padding: 25pt;
-}
+ 
               
               
          #footer {

@@ -1,0 +1,57 @@
+   /* CONTACTO page */
+   $colorBorder: beige;
+   $fondoBorder: #003d33;
+   
+   body {
+    background-color: #6d6d6d;
+    }
+    
+    
+   #contacto{
+    grid-column: 1/4;
+    grid-row:3/6;
+    text-align: center;
+    color: beige;
+    
+    list-style: none;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacto .contacto-list {
+    padding: 50pt;
+    .contacto-instagram {
+        font-size: 50px;
+        border-style: outset;
+        border-radius: 5cm;
+        border-color: $colorBorder;
+        background-color: $fondoBorder;
+    }
+    .contacto-email {
+        font-size: 50px;
+        border-style: outset;
+        border-radius: 5cm;
+        border-color: $colorBorder;
+        background-color: $fondoBorder;
+    }
+    .contacto-youtube {
+        font-size: 50px;
+        border-style: outset;
+        border-radius: 5cm;
+        border-color: $colorBorder;
+        background-color: $fondoBorder;
+    }
+    p {
+        padding: 25pt;
+    }
+}
+
+ 
+
+
+
+
+
+
+
