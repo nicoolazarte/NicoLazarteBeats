@@ -20,9 +20,11 @@ background-color: #6d6d6d;
 
 .carousel-inner {
     display: flex;
-    justify-content: center;
-    margin-left: -310px;
+    justify-content:space-around;
+    
+    
 }
+
 
 .tituloLista {
     margin-left: 250px;
@@ -36,32 +38,11 @@ background-color: #6d6d6d;
 
 }
 
-/* #instrumentales {
-    grid-column: 1/4;
-    grid-row: 3/4;
-    gap: 10pt;
-    justify-content: center;
-    align-self: center;
-    text-align: center;
-    
-    display: flex;
-    flex-wrap: nowrap;
-    color: beige;
-    font-size: 15pt;
-    font-weight: bold;
-    align-items: baseline;
-} */
 
-/* #instrumentales iframe {
-    width: fit-content;
-    height: max-content;
-    padding: 3pt;
-} */
-
-/* FINAL INSTRUMENTALES */
-
-
-
+#licencias {
+    height: auto;
+    width: auto;
+}
 #licencias .licencias-tipo {
     color: beige;
     list-style-type:circle;
@@ -83,6 +64,7 @@ background-color: #6d6d6d;
     padding: 5pt;
     text-align: left;
 }
+
 
 #footer{
     display: flex;

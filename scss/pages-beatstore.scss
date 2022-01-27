@@ -1,0 +1,154 @@
+$colorBorder: beige;
+$fondoBorder: #003d33;
+
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Readex Pro';
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #6d6d6d;
+}
+/* PAGINA INSTRUMENTALES */
+
+.instrumentales-genero {
+    iframe {
+    width:450px;
+    height: 350px;
+    }
+
+    p{
+        color: beige;
+        font-weight: bold;
+    }
+
+}
+
+
+/* PAGINA CONTACTO */
+#contacto{
+    
+    list-style: none;
+    text-align: center;
+    color: beige;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacto .contacto-list {
+    padding: 50pt;
+    .contacto-instagram {
+        font-size: 50px;
+        border-style: outset;
+        border-radius: 5cm;
+        border-color: $colorBorder;
+        background-color: $fondoBorder;
+    }
+    .contacto-email {
+        font-size: 50px;
+        border-style: outset;
+        border-radius: 5cm;
+        border-color: $colorBorder;
+        background-color: $fondoBorder;
+    }
+    .contacto-youtube {
+        font-size: 50px;
+        border-style: outset;
+        border-radius: 5cm;
+        border-color: $colorBorder;
+        background-color: $fondoBorder;
+    }
+    p {
+        padding: 25pt;
+    }
+}
+
+/* MediaQuerie 768px */
+@media screen and (min-width: 768px) {
+    body {
+       background-color: #6d6d6d;
+       }
+              
+       #instrumentales {
+           gap: 10pt;
+           justify-content: center;
+           align-self: center;
+           text-align: center;
+           
+           display: flex;
+           flex-wrap: nowrap;
+           color: beige;
+           font-size: 15pt;
+           font-weight: bold;
+           align-items: baseline;
+       }
+       
+       
+       #instrumentales iframe {
+           width: 750px;
+           height: 450px;
+           padding: 3pt;
+       }
+       
+       /* FINAL INSTRUMENTALES */
+       
+       #licencias {
+           grid-row: 4/5;
+           grid-column: 1/4;
+           gap: 5pt; 
+           display: flex;
+           flex-wrap: nowrap;
+           justify-content: center;
+           align-content: center;
+       }
+       
+       #licencias .licencias-tipo {
+           color: beige;
+           list-style-type:circle;
+           list-style-position: inside;
+           border-style: inset;
+           border-radius: 5px;
+           
+       }
+       
+       .licencias-tipo p {
+           text-align: center;
+           font-weight: bold;
+           font-weight: 150pt;
+           font-size: 20pt;
+       }
+       
+       .licencias-tipo li {
+           padding: 5pt;
+           text-align: left;
+       }
+       
+       /* FIN LICENCIAS */
+       
+       
+       #footer{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+     }
+     
+     .footerRights {
+         color: beige;
+         padding: 1pt;
+     }
+     
+     .footerRedes {
+         display: flex;
+         flex-direction: row;
+         gap: 5pt;
+         
+         color: beige;
+         padding: 1pt;
+     }
+       
+ }
