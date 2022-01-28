@@ -42,32 +42,83 @@ body {
   padding: 50pt;
 }
 
-#contacto .contacto-list .contacto-instagram {
+#contacto .contacto-instagram {
   font-size: 50px;
   border-style: outset;
   border-radius: 5cm;
-  border-color: beige;
-  background-color: #003d33;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(grey), to(#003d33));
+  background-image: linear-gradient(grey, #003d33);
 }
 
-#contacto .contacto-list .contacto-email {
+#contacto .contacto-email {
   font-size: 50px;
   border-style: outset;
   border-radius: 5cm;
-  border-color: beige;
-  background-color: #003d33;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(grey), to(#003d33));
+  background-image: linear-gradient(grey, #003d33);
 }
 
-#contacto .contacto-list .contacto-youtube {
+#contacto .contacto-youtube {
   font-size: 50px;
   border-style: outset;
   border-radius: 5cm;
-  border-color: beige;
-  background-color: #003d33;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(grey), to(#003d33));
+  background-image: linear-gradient(grey, #003d33);
 }
 
-#contacto .contacto-list p {
+#contacto p {
   padding: 25pt;
+}
+
+/* COLAB PAGINA */
+#formColab .formTitle {
+  color: beige;
+  border-style: outset;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(grey), to(#003d33));
+  background-image: linear-gradient(grey, #003d33);
+}
+
+#formColab .formInput {
+  color: beige;
+}
+
+/* Licencias PAGINA */
+#licencias .licencias-tipo {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(grey), to(#003d33));
+  background-image: linear-gradient(grey, #003d33);
+  color: beige;
+  border-style: outset;
+}
+
+/* FOOTER */
+#footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footerRights {
+  color: beige;
+  padding: 1pt;
+}
+
+.footerRedes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 5pt;
+  color: beige;
+  padding: 1pt;
 }
 
 /* MediaQuerie 768px */

@@ -1,5 +1,11 @@
-$colorBorder: beige;
-$fondoBorder: #003d33;
+@mixin borderColor () {
+        border-color: beige;
+        background-color: #003d33;
+}
+
+@mixin fondoBorder {
+    background-image: linear-gradient(grey, #003d33)
+}
 
 * {
     text-decoration: none;
@@ -13,7 +19,8 @@ $fondoBorder: #003d33;
 body {
     background-color: #6d6d6d;
 }
-/* PAGINA INSTRUMENTALES */
+
+    /* PAGINA INSTRUMENTALES */
 
 .instrumentales-genero {
     iframe {
@@ -21,15 +28,14 @@ body {
     height: 350px;
     }
 
-    p{
+    p {
         color: beige;
         font-weight: bold;
     }
 
 }
 
-
-/* PAGINA CONTACTO */
+    /* PAGINA CONTACTO */
 #contacto{
     
     list-style: none;
@@ -40,35 +46,91 @@ body {
     align-items: center;
 }
 
-#contacto .contacto-list {
-    padding: 50pt;
+#contacto {
+    
+    .contacto-list {
+    padding: 50pt; }
     .contacto-instagram {
         font-size: 50px;
         border-style: outset;
         border-radius: 5cm;
-        border-color: $colorBorder;
-        background-color: $fondoBorder;
+        @include fondoBorder();
+        
     }
     .contacto-email {
         font-size: 50px;
         border-style: outset;
         border-radius: 5cm;
-        border-color: $colorBorder;
-        background-color: $fondoBorder;
+        @include fondoBorder();
+        
     }
     .contacto-youtube {
         font-size: 50px;
         border-style: outset;
         border-radius: 5cm;
-        border-color: $colorBorder;
-        background-color: $fondoBorder;
+        @include fondoBorder();
+        
     }
     p {
         padding: 25pt;
     }
 }
 
-/* MediaQuerie 768px */
+    /* COLAB PAGINA */
+
+    #formColab
+    {
+        .formTitle {
+        color: beige;
+        border-style: outset;
+        @include fondoBorder();
+
+       
+    }
+        .formInput {
+            color: beige;
+            
+        }
+    }
+
+   /* Licencias PAGINA */
+
+   #licencias {
+       .licencias-tipo {
+           @include fondoBorder();
+           color: beige;
+           border-style: outset;
+    
+        }                   
+   }
+
+   /* FOOTER */
+   #footer {
+     
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;}
+    .footerRights {
+        color: beige;
+        padding: 1pt;
+    }
+    .footerRedes {
+        display: flex;
+        flex-direction: row;
+        gap: 5pt;
+        
+        color: beige;
+        padding: 1pt;
+    }
+
+
+
+
+
+    
+
+
+    /* MediaQuerie 768px */
 @media screen and (min-width: 768px) {
     body {
        background-color: #6d6d6d;
@@ -113,6 +175,7 @@ body {
            list-style-position: inside;
            border-style: inset;
            border-radius: 5px;
+           
            
        }
        
