@@ -76,9 +76,15 @@ body {
   border-style: outset;
   background-image: -webkit-gradient(linear, left top, left bottom, from(grey), to(#003d33));
   background-image: linear-gradient(grey, #003d33);
+  width: 100%;
+  text-align: center;
 }
 
 #formColab .formInput {
+  color: beige;
+}
+
+.colabTexto {
   color: beige;
 }
 
@@ -119,6 +125,10 @@ body {
   gap: 5pt;
   color: beige;
   padding: 1pt;
+}
+
+.footerRedes .iconos {
+  color: beige;
 }
 
 /* MediaQuerie 768px */

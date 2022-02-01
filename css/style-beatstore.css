@@ -66,25 +66,6 @@ background-color: #6d6d6d;
 }
 
 
-#footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.footerRights {
-    color: beige;
-    padding: 1pt;
-}
-
-.footerRedes {
-    display: flex;
-    flex-direction: row;
-    gap: 5pt;
-    
-    color: beige;
-    padding: 1pt;
-}
 
 .formTitle {
     text-align: center;
@@ -115,3 +96,27 @@ background-color: #6d6d6d;
 .inputFile {
     color: beige;
 }
+
+#footer{
+    display: flex;
+}
+
+.footerRights {
+    color: beige;
+    padding: 1pt;
+}
+
+.footerRedes {
+    color: beige;
+    padding: 1pt;
+    @font-face {
+        weight: 100 ;
+        
+    }
+}
+
+.iconos {
+    color: beige;
+    
+}
+

@@ -84,13 +84,18 @@ body {
         color: beige;
         border-style: outset;
         @include fondoBorder();
-
-       
+        width: 100%;
+        text-align: center;
     }
         .formInput {
             color: beige;
             
         }
+       
+    }
+
+    .colabTexto {
+        color: beige;
     }
 
    /* Licencias PAGINA */
@@ -105,24 +110,27 @@ body {
    }
 
    /* FOOTER */
-   #footer {
-     
+    
+    
+   #footer{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;}
-    .footerRights {
-        color: beige;
-        padding: 1pt;
-    }
-    .footerRedes {
-        display: flex;
-        flex-direction: row;
-        gap: 5pt;
-        
-        color: beige;
-        padding: 1pt;
-    }
+}
 
+.footerRights {
+    color: beige;
+    padding: 1pt;
+}
+
+.footerRedes {
+    color: beige;
+    padding: 1pt;
+    
+}
+
+.iconos {
+    color: beige;
+    
+}
 
 
 
@@ -193,25 +201,23 @@ body {
        
        /* FIN LICENCIAS */
        
-       
        #footer{
-         display: flex;
-         flex-direction: row;
-         justify-content: space-around;
-     }
-     
-     .footerRights {
-         color: beige;
-         padding: 1pt;
-     }
-     
-     .footerRedes {
-         display: flex;
-         flex-direction: row;
-         gap: 5pt;
-         
-         color: beige;
-         padding: 1pt;
-     }
+        display: flex;
+    }
+    
+    .footerRights {
+        color: beige;
+        padding: 1pt;
+    }
+    
+    .footerRedes {
+        color: beige;
+        padding: 1pt;
        
- }
+    }
+    
+    .iconos {
+        color: beige;
+        
+    }
+
