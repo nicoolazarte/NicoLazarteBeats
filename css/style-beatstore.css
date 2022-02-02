@@ -21,8 +21,6 @@ background-color: #6d6d6d;
 .carousel-inner {
     display: flex;
     justify-content:space-around;
-    
-    
 }
 
 
@@ -33,12 +31,12 @@ background-color: #6d6d6d;
 }
 
 .carousel-inner iframe {
-    width: 500px;
+    width: 650px;
     height: 350px;
-
 }
 
 
+/* LICENCIAS */
 #licencias {
     height: auto;
     width: auto;
@@ -66,40 +64,49 @@ background-color: #6d6d6d;
 }
 
 
-
-.formTitle {
-    text-align: center;
+/* METODOS DE PAGO */
+.tituloPago {
     color: beige;
     font-weight: bold;
-    border-style:solid;
-    border-radius: 5pt;
-    background-image: linear-gradient(grey, #003d33)
+    font-size: 35px;
 }
 
-.formInput {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.parrafoPago {
+    font-size: 25px;
+    color: beige;
+}
+
+.mediosPago {
     color: beige;
     font-weight: bold;
-    gap: 5pt 8pt;
-    padding: 3pt;
-    
+    font-size: 25px;
+}
+.imagenesPago {
+    background-color: #6d6d6d;
+    width: 150px;
+    height: auto;
+    padding: 5pt;
 }
 
-.inputSpace {
-    display: flex;
-    gap: 2pt;
-    justify-content: end;
-}
-
-.inputFile {
+/* SERVICIOS */
+.servicios {
     color: beige;
+    font-weight: bold;
+    font-size: 35px;
 }
 
+.serviciosLista {
+    color: beige;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* FOOTER */
 #footer{
     display: flex;
+    margin-bottom: 0;
 }
+
 
 .footerRights {
     color: beige;
@@ -109,10 +116,7 @@ background-color: #6d6d6d;
 .footerRedes {
     color: beige;
     padding: 1pt;
-    @font-face {
-        weight: 100 ;
-        
-    }
+    
 }
 
 .iconos {

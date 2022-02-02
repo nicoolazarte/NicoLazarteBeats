@@ -17,13 +17,14 @@
     <meta name="description" content="Beats, produccion y mastering, distintos medios de pago"> 
     <title >Nico Lazarte Beats Beatstore</title>
 </head>
-<body class="container-fluid">
 
-           
-    <header id="header" class="bg-secondary container-fluid">
+<body>
+
+    <div class="row">  
+    <header id="header" class="bg-secondary container-fluid col-12 col-sm-12 col-md-12">
       <p class="text-light mb-0 p-2 d-flex justify-content-end ">Contactame a: nicolazarte.music@gmail.com</p>
     </header>
-    
+  </div>
       
       <nav id="nav" class="row navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
@@ -58,22 +59,23 @@
       
 
     <!-- Carrusel -->
+    <div class="row">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="d-grid container-fluid carousel-inner">
+      <div class="carousel-inner">
         <div class="carousel-item active">
-            <div class="d-flex justify-content-center mt-5 mx-auto">
+            <div class="mt-5 mx-auto">
           <iframe  src="https://www.youtube.com/embed/videoseries?list=PLUUNa8DLJCfPOFQaUQQlQmdZwSbReuwKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
         
         <div class="carousel-item">
-          <div class="d-flex justify-content-center my-5 mx-auto ">
+          <div class="my-5 mx-auto">
           <iframe  src="https://www.youtube.com/embed/videoseries?list=PLUUNa8DLJCfNMfoeNEwvrequDlH_J-IZq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
         
         <div class="carousel-item">
-          <div class="d-flex justify-content-center my-5 mx-auto ">
+          <div class="my-5 mx-auto ">
           <iframe  src="https://www.youtube.com/embed/videoseries?list=PLUUNa8DLJCfPpZGY815IJwswphOmsjcyR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
@@ -87,15 +89,16 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+    </div>
 
      
     
       <!-- INICIO LICENCIAS -->
     <div id="licencias" class="grid-container gap-3">
-      <div class="row p-1 mt-5">
-        <div class="container-fluid d-flex justify-content-center col col-12 col-sm-12 col-md-3">
+      <div class="row p-1 mt-5 container-fluid d-flex justify-content-center mx-auto">
+        <div class="col col-12 col-sm-12 col-md-3">
           <ul class="w-100 h-100 licencias-tipo"> 
-            <p>LICENCIA BASICA</p>
+            <p class="text-center">LICENCIA BASICA</p>
           
           <li>Archivos WAV y MP3</li>
           <li>Sin TAG o marca de agua</li>
@@ -106,7 +109,7 @@
         
         <div class="col col-12 col-sm-12 col-md-3">
           <ul class=" w-100 h-100 licencias-tipo">
-            <p>LICENCIA FULL</p>
+            <p class="text-center">LICENCIA FULL</p>
             
             <li>Archivos WAV y MP3</li>
             <li>Sin TAG o marca de agua</li>
@@ -119,7 +122,7 @@
         
         <div class="col col-12 col-sm-12 col-md-3">
           <ul class="w-100 h-100 licencias-tipo">
-            <p>LICENCIA ILIMITADA</p>
+            <p class="text-center">LICENCIA ILIMITADA</p>
             
             <li>Archivos WAV y MP3</li>
             <li>Sin TAG o marca de agua</li>
@@ -132,7 +135,7 @@
         
         <div class="col col-12 col-sm-12 col-md-3">
           <ul class="w-100 h-100 licencias-tipo">
-            <p>LICENCIA EXCLUSIVA</p>
+            <p class="text-center">LICENCIA EXCLUSIVA</p>
             
             <li>Archivos WAV y MP3</li>
             <li>Sin TAG o marca de agua</li>
@@ -146,41 +149,50 @@
       </div>
       
     </div>
-      
-    <!-- INICIO FORMULARIO COLABORACION -->  
-    <div id="formColab" class="row pt-4">
-        <div  class="d-flex justify-content-center">  
-        <form class="form" action=""  method="post" enctype="multipart/form-data">
-            
-            <div class="formTitle">
-            <h2>COLABOREMOS JUNTOS</h2>
-            </div>
-            
-            <div class="formInput"> 
-                <label for="text" class="form-label"> EMAIL</label> 
-                <input class="inputSpace" type="text" class="form-input"> 
-            </div>
-            
-            <div class="formInput"> 
-                <label for="text" class="form-label"> INSTAGRAM</label> 
-                <input class="inputSpace" type="text" class="form-input"> 
-            </div>   
-            
-            <div class="formInput"> 
-                <label for="text" class="form-label" class="form-input"></label> 
-            </div>   
-            <input class="inputFile" type="file"> 
-            <input type="submit" class="form-submit"> 
-    
-        </form>      
-      </div>  
+
+    <div id="FormasPago" class="row">
+      <div class="container-fluid m-5 col-md-12 col-sm-12">
+        <h3 class="tituloPago d-flex justify-content-center">METODOS DE PAGO</h3>
+      <p class="parrafoPago col-md-12 col-12 col-sm-12">Podras adquirir las diferentes licencias que ofrezco pagando a traves de plataformas tales como:</p>
+      <ul class="mediosPago col-md-12 col-12 col-sm-12">
+        <li>PAYPAL (INTERNACIONAL)</li>
+        <li>MERCADO PAGO</li>
+        <li>UALÁ</li>
+        <li>TRANSFERENCIA BANCARIA</li>
+      </ul>
       </div>
+
+      <div class="d-flex justify-content-center align-items-center container-fluid col-12 col-md-12 col-sm-6">
+        <img class="imagenesPago" src="./img/bank.png" alt="bancologo">
+        <img class="imagenesPago" src="./img/mercadopago-png.png" alt="mercadopagologo">
+        <img class="imagenesPago" src="./img/paypallogo.png" alt="paypallogo">
+        <img class="imagenesPago" src="./img/uala.png" alt="ualalogo">
+      </div>
+
+      </div>
+
+    </div>
+      
+    <div class="row">
+      <div class="container-fluid">
+      <div class="p-5 col-12 col-sm-12 col-md-12">
+        <h3 class="servicios d-flex  justify-content-center">MIS SERVICIOS</h3>
+        <ul class="serviciosLista">
+          <li>Produccion</li>
+          <li>Mezcla y Mastering</li>
+          <li>Creacion de tu sitio web</li>
+        </ul>
+      </div>
+
+      </div>
+
+    </div>
         
 
 
       <!-- FOOTER -->
       <footer id="footer" class="mt-2 mt-sm-0 mg-lg-5 sticky-bottom">
-        <div class="container-fluid">
+        <div class="footer container-fluid">
         <div class="row">
           <div class="footerRights col-12 text-center col-sm-6 align-self-sm-center text-sm-start col-md-6 ">
             <p>2022 &copy; Nico Lazarte Beats</p>

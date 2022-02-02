@@ -96,17 +96,18 @@ body {
   border-style: outset;
 }
 
+/* Sobre Mi */
+.info-div {
+  color: beige;
+  list-style: none;
+}
+
 /* FOOTER */
 #footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  margin-bottom: 0;
 }
 
 .footerRights {
@@ -115,19 +116,11 @@ body {
 }
 
 .footerRedes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  gap: 5pt;
   color: beige;
   padding: 1pt;
 }
 
-.footerRedes .iconos {
+.iconos {
   color: beige;
 }
 
@@ -203,28 +196,17 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
   }
   .footerRights {
     color: beige;
     padding: 1pt;
   }
   .footerRedes {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    gap: 5pt;
     color: beige;
     padding: 1pt;
+  }
+  .iconos {
+    color: beige;
   }
 }
 /*# sourceMappingURL=pages-beatstore.css.map */

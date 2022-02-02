@@ -109,11 +109,18 @@ body {
         }                   
    }
 
+   /* Sobre Mi */
+   
+      .info-div {
+          color: beige;
+        list-style: none;
+      }
+
+
    /* FOOTER */
-    
-    
    #footer{
     display: flex;
+    margin-bottom: 0;
 }
 
 .footerRights {
@@ -132,6 +139,8 @@ body {
     
 }
 
+    
+   
 
 
 
@@ -183,10 +192,8 @@ body {
            list-style-position: inside;
            border-style: inset;
            border-radius: 5px;
-           
-           
-       }
-       
+        }
+            
        .licencias-tipo p {
            text-align: center;
            font-weight: bold;
@@ -213,11 +220,11 @@ body {
     .footerRedes {
         color: beige;
         padding: 1pt;
-       
+        
     }
     
     .iconos {
         color: beige;
         
     }
-
+}
