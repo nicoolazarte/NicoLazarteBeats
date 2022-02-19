@@ -11,116 +11,127 @@ body {
 background-color: #6d6d6d;
 }
 
-
+/* NAV */
 #menuNav a {
-    font-size: 15px;
+    font-size: 18   px;
     font-weight: bold;
     color: beige;
 }
 
-.carousel-inner {
-    display: flex;
-    justify-content:space-around;
+#menuNav a:hover  {
+    color: darkgreen;
 }
 
-
-.tituloLista {
-    margin-left: 250px;
-    padding: 1px;
-    font-weight: bold;
+#menuNav .logoNav {
+   width: 20px; 
 }
 
-.carousel-inner iframe {
-    width: 650px;
-    height: 350px;
+/* Informacion Personal */
+.logoInfo {
+    width: 320px;
+    height:280px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: #6d6d6d;
 }
 
-
-/* LICENCIAS */
-#licencias {
-    height: auto;
-    width: auto;
-}
-#licencias .licencias-tipo {
+.infoIndex {
+    font-size: 20px;
     color: beige;
-    list-style-type:circle;
-    list-style-position: inside;
-    border-style: inset;
-    border-radius: 5px;
-    background-image: linear-gradient(grey, #003d33);
+    padding-left: auto;
+    border-style: groove;
+    border-radius: 10pt;
+}
+
+/* Carrusel */
+
+#videosYoutube {
+    height: 100%;
+}
+.carrusel {
+    padding: 50pt;
+    background-color: black;
     
 }
 
-.licencias-tipo p {
-    text-align: center;
-    font-weight: bold;
-    font-weight: 150pt;
-    font-size: 20pt;
-}
-
-.licencias-tipo li {
-    padding: 5pt;
-    text-align: left;
-}
-
-
-/* METODOS DE PAGO */
-.tituloPago {
+.carrusel h2 {
     color: beige;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 40px;
+    
 }
 
-.parrafoPago {
-    font-size: 25px;
+.carrusel p {
     color: beige;
+    
 }
 
-.mediosPago {
-    color: beige;
+/* LICENCIAS */
+
+#licencias {
+   display: flex;
+   justify-content: center;   
+   color: beige;
+}
+
+.tituloLicencias {
+    font-size: 80px;
     font-weight: bold;
-    font-size: 25px;
-}
-.imagenesPago {
-    background-color: #6d6d6d;
-    width: 150px;
-    height: auto;
-    padding: 5pt;
+    overflow: hidden;
 }
 
-/* SERVICIOS */
-.servicios {
-    color: beige;
+.licencias-tipo {
+    border-style: groove;
+    border-radius: 10pt;
+    border-width: 5pt;
     font-weight: bold;
-    font-size: 35px;
+    background-image: linear-gradient(grey, black)
+}
+li::marker {
+    color: black;   
 }
 
-.serviciosLista {
-    color: beige;
+.licencias-tipo h3 {
     font-weight: bold;
-    font-size: 25px;
+}
+
+/* MEDIOS DE PAGO */
+.tituloMPago {
+    color: beige;
+}
+
+.tituloMPago h3 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.iconosMPago .bi {
+    font-size: 8rem;
+    color: beige;
+    padding: 25pt;
+}
+
+.bi-paypal:hover {
+    color:blue;
+}
+.bi-cash-coin:hover {
+    color: yellow;
+}
+.bi-currency-bitcoin:hover {
+    color: orange;
 }
 
 /* FOOTER */
-#footer{
-    display: flex;
-    margin-bottom: 0;
+footer {
+   color: beige;
+   margin-bottom: 0;
 }
 
-
-.footerRights {
+#footer a {
     color: beige;
-    padding: 1pt;
 }
 
-.footerRedes {
-    color: beige;
-    padding: 1pt;
-    
-}
+/* MEDIA QueRIE */
+@media screen and (max-width: 769px) {
 
-.iconos {
-    color: beige;
-    
 }
-

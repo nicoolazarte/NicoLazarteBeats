@@ -12,6 +12,21 @@ body {
   background-color: #6d6d6d;
 }
 
+/* NAV */
+#menuNav a {
+  font-size: 18   px;
+  font-weight: bold;
+  color: beige;
+}
+
+#menuNav .logoNav {
+  width: 20px;
+}
+
+#menuNav a:hover {
+  color: darkgreen;
+}
+
 /* PAGINA INSTRUMENTALES */
 .instrumentales-genero iframe {
   width: 450px;
@@ -21,6 +36,7 @@ body {
 .instrumentales-genero p {
   color: beige;
   font-weight: bold;
+  font-size: 50px;
 }
 
 /* PAGINA CONTACTO */
@@ -46,24 +62,24 @@ body {
   font-size: 50px;
   border-style: outset;
   border-radius: 5cm;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(grey), to(#003d33));
-  background-image: linear-gradient(grey, #003d33);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(grey), to(black));
+  background-image: linear-gradient(grey, black);
 }
 
 #contacto .contacto-email {
   font-size: 50px;
   border-style: outset;
   border-radius: 5cm;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(grey), to(#003d33));
-  background-image: linear-gradient(grey, #003d33);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(grey), to(black));
+  background-image: linear-gradient(grey, black);
 }
 
 #contacto .contacto-youtube {
   font-size: 50px;
   border-style: outset;
   border-radius: 5cm;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(grey), to(#003d33));
-  background-image: linear-gradient(grey, #003d33);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(grey), to(black));
+  background-image: linear-gradient(grey, black);
 }
 
 #contacto p {
@@ -74,8 +90,8 @@ body {
 #formColab .formTitle {
   color: beige;
   border-style: outset;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(grey), to(#003d33));
-  background-image: linear-gradient(grey, #003d33);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(grey), to(black));
+  background-image: linear-gradient(grey, black);
   width: 100%;
   text-align: center;
 }
@@ -84,22 +100,58 @@ body {
   color: beige;
 }
 
+.bi {
+  font-size: 150px;
+  color: beige;
+}
+
 .colabTexto {
   color: beige;
 }
 
 /* Licencias PAGINA */
-#licencias .licencias-tipo {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(grey), to(#003d33));
-  background-image: linear-gradient(grey, #003d33);
+.tituloLicencias {
   color: beige;
-  border-style: outset;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+#licencias .licencias-tipo {
+  border-style: groove;
+  border-radius: 10pt;
+  border-width: 5pt;
+  font-weight: bold;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(grey), to(black));
+  background-image: linear-gradient(grey, black);
+}
+
+#licencias ul {
+  color: beige;
 }
 
 /* Sobre Mi */
 .info-div {
   color: beige;
   list-style: none;
+}
+
+.info-div li {
+  color: beige;
+  font-weight: bold;
+}
+
+.info-div li:hover {
+  color: darkgreen;
+}
+
+.sobreMiIcon i {
+  font-size: 230px;
+}
+
+.tituloSobreMi {
+  color: beige;
+  font-size: 250px;
+  font-weight: bold;
 }
 
 /* FOOTER */

@@ -4,7 +4,11 @@
 }
 
 @mixin fondoBorder {
-    background-image: linear-gradient(grey, #003d33)
+    background-image: linear-gradient(grey, black)
+}
+
+@mixin colorTexto {
+    color: beige;
 }
 
 * {
@@ -20,6 +24,22 @@ body {
     background-color: #6d6d6d;
 }
 
+/* NAV */
+
+#menuNav {
+     a {
+        font-size: 18   px;
+        font-weight: bold;
+        color: beige;
+    }
+    .logoNav {
+        width: 20px;
+    }
+    a:hover{
+        color: darkgreen;
+    }
+}
+
     /* PAGINA INSTRUMENTALES */
 
 .instrumentales-genero {
@@ -31,6 +51,7 @@ body {
     p {
         color: beige;
         font-weight: bold;
+        font-size: 50px;
     }
 
 }
@@ -91,7 +112,11 @@ body {
             color: beige;
             
         }
-       
+    }
+
+    .bi {
+        font-size: 150px;
+        @include colorTexto();
     }
 
     .colabTexto {
@@ -100,21 +125,53 @@ body {
 
    /* Licencias PAGINA */
 
-   #licencias {
-       .licencias-tipo {
-           @include fondoBorder();
-           color: beige;
-           border-style: outset;
-    
-        }                   
-   }
+  .tituloLicencias {
+   @include colorTexto();
+   font-size: 80px;
+   font-weight: bold;
+  }
+
+  #licencias {
+    .licencias-tipo {
+        border-style: groove;
+        border-radius: 10pt;
+        border-width: 5pt;
+        font-weight: bold;
+        background-image: linear-gradient(grey, black)
+    }
+
+    ul {
+        @include colorTexto();
+    }
+  }
 
    /* Sobre Mi */
    
       .info-div {
           color: beige;
         list-style: none;
+
+        li {
+            @include colorTexto();
+            font-weight: bold;
+        }
+        li:hover {
+            color: darkgreen;
+        }
       }
+
+      .sobreMiIcon { 
+            i {
+                font-size: 230px;
+            }
+       
+      }
+      .tituloSobreMi {
+        @include colorTexto();
+        font-size: 250px;
+        font-weight: bold;
+    }
+     
 
 
    /* FOOTER */
@@ -125,7 +182,7 @@ body {
 
 .footerRights {
     color: beige;
-    padding: 1pt;
+    padding:1pt;
 }
 
 .footerRedes {
@@ -147,8 +204,8 @@ body {
     
 
 
-    /* MediaQuerie 768px */
-@media screen and (min-width: 768px) {
+ /* MediaQuerie 768px */
+ @media screen and (min-width: 768px) {
     body {
        background-color: #6d6d6d;
        }
