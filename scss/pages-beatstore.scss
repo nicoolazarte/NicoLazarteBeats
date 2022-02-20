@@ -127,21 +127,22 @@ body {
 
   .tituloLicencias {
    @include colorTexto();
-   font-size: 80px;
+   font-size: 50px;
    font-weight: bold;
   }
 
   #licencias {
     .licencias-tipo {
-        border-style: groove;
-        border-radius: 10pt;
-        border-width: 5pt;
+        @include colorTexto();
+        @include fondoBorder();
         font-weight: bold;
-        background-image: linear-gradient(grey, black)
+        border-radius: 5pt;
+        border-style: groove;
+        
     }
 
     ul {
-        @include colorTexto();
+       @include colorTexto()
     }
   }
 
@@ -204,7 +205,7 @@ body {
     
 
 
- /* MediaQuerie 768px */
+ /* MediaQuerie min 769px */
  @media screen and (min-width: 768px) {
     body {
        background-color: #6d6d6d;
@@ -284,4 +285,25 @@ body {
         color: beige;
         
     }
+}
+/* MediaQuerie max 768 */
+@media screen and (max-width: 769px) {
+    /* PAGINA COLAB */
+
+    
+    
+    /* PAGINA INSTRUMENTALES */
+.instrumentales-genero {
+    iframe {
+    width:350px;
+    height: 250px;
+    }
+
+    p {
+        color: beige;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+}
 }
